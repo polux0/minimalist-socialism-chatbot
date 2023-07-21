@@ -10,6 +10,7 @@ pipenv.lock
 
 # Ignore lib directory
 lib/
+lib64
 
 # Other common Python-related ignores
 __pycache__/
