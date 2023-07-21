@@ -1,0 +1,20 @@
+# Ignore .env file
+.env
+
+# Ignore virtual environment directories (Python virtualenv, pipenv, venv)
+venv/
+env/
+.venv/
+.pipenv/
+pipenv.lock
+
+# Other common Python-related ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyw
+*.egg-info/
+dist/
+build/
