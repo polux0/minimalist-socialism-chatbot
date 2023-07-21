@@ -8,6 +8,9 @@ env/
 .pipenv/
 pipenv.lock
 
+# Ignore lib directory
+lib/
+
 # Other common Python-related ignores
 __pycache__/
 *.pyc
