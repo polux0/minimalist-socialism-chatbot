@@ -24,3 +24,11 @@ def get_gpt_llm():
     }
     llm = ChatOpenAI(**chat_params)
     return llm
+
+# api key is required
+# def get_hugging_face_llm(repository_id: string):
+#     model_parameters = {
+#         "temperature": 0.5,
+#         "max_length": 512
+#     }
+#     llm = HuggingFaceHub(repository_id, model_kwargs = model_parameters)
