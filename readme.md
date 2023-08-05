@@ -7,8 +7,8 @@ This repository contains a minimalist socialism chatbot application. Follow the 
 git clone git@github.com:polux0/minimalist-socialism-chatbot.git or https://github.com/polux0/minimalist-socialism-chatbot.git
 
 1. **Create virtual environment**
-python3 -m venv /your_location/minimalist-socialism-chatbot or python3 -m venv $pwd
-source /your_location/minimalist-socialism-chatbot/bin/activate or source $pwd/bin/activate
+    1. python3 -m venv . or python3 -m venv $pwd
+    2. source ./bin/activate or source $pwd/bin/activate
 
 2. **Upgrade `pip` and install `setuptools`**
 pip install --upgrade pip
